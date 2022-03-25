@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/button_eggs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="selectItem"
+        android:text="@string/eggs"
+        app:layout_constraintTop_toBottomOf="@+id/button_oil"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button_milk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="selectItem"
+        android:text="@string/milk"
+        app:layout_constraintTop_toBottomOf="@+id/button_salt"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button_rice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="selectItem"
+        android:text="@string/rice"
+        app:layout_constraintTop_toBottomOf="@+id/button_eggs"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button_salt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:onClick="selectItem"
+        android:text="@string/salt"
+        app:layout_constraintTop_toBottomOf="@+id/button_bread"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button_bread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:onClick="selectItem"
+        android:text="@string/bread"
+        app:layout_constraintTop_toBottomOf="@+id/button_rice"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button_chocolate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selectItem"
+        android:text="@string/chocolate"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="135dp" />
+
+    <Button
+        android:id="@+id/button_cheese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="selectItem"
+        android:text="@string/cheese"
+        app:layout_constraintTop_toBottomOf="@+id/button_chocolate"
+        tools:layout_editor_absoluteX="135dp" />
+
+    <Button
+        android:id="@+id/button_wheat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="selectItem"
+        android:text="@string/wheat_flour"
+        app:layout_constraintTop_toBottomOf="@+id/button_cheese"
+        tools:layout_editor_absoluteX="135dp" />
+
+    <Button
+        android:id="@+id/button_sugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="selectItem"
+        android:text="@string/sugar"
+        app:layout_constraintTop_toBottomOf="@+id/button_wheat"
+        tools:layout_editor_absoluteX="135dp" />
+
+    <Button
+        android:id="@+id/button_oil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="selectItem"
+        android:text="@string/oil"
+        app:layout_constraintTop_toBottomOf="@+id/button_sugar"
+        tools:layout_editor_absoluteX="135dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
